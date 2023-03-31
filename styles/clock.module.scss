@@ -12,7 +12,25 @@
     box-shadow: 
     0 0 10px lightblue,
     0 0 20px lightgreen,
-    0 0 40px lightgreen;
+    0 0 40px lightgreen,
+    0 0 60px aqua;
+    position: relative;
+
+
+    & .datecontainer {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        background: transparent;
+
+        & p {
+            background: transparent;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: azure;
+        }
+    }
+
 
 
     & .clockcontainer {
@@ -21,7 +39,10 @@
         align-items: center;
         gap: 7em;
         color: white;
+        font-weight: bold;
         background-color: #2F4F4F;
+        padding-top: 2em;
+        padding-bottom: 1em;
 
         & .hour {
             background-color: #2F4F4F;
