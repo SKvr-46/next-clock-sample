@@ -1,9 +1,21 @@
 import { Clock } from "@/component/Clock"
+import { Layout } from "@/component/Layout"
+import { Footer } from "@/component/Footer"
+import { Meta } from "@/component/Meta"
 
 const Home = () => {
 
   return (
-    <Clock/>
+    <div>
+      <Meta
+      pageTitle={"NEON CLOCK"}
+      />
+      <Layout>
+        <Clock/>
+      </Layout>
+      <Footer/>
+    </div>
+
   )
 }
 

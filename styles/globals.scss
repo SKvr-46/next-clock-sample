@@ -3,4 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   background: #2f363e;
+  font-family: fantasy;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:hover {
+    text-decoration: underline;
+    color: aquamarine;
+  }
+}
+
+address {
+  color: white;
 }
