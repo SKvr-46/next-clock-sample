@@ -54,7 +54,7 @@ export const Clock = () => {
             let m = String(date.getMinutes()).padStart(2, '0')
             let s = String(date.getSeconds()).padStart(2, '0')
 
-            setDay(`${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} (${searchDayfromDate(wtday)})`)
+            setDay(`${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} [${searchDayfromDate(wtday)}]`)
 
             setHdeg(360 * date.getHours() / 12 + 45)
             setMdeg(360 * date.getMinutes() / 60 + 45)
